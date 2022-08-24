@@ -9,8 +9,11 @@
   },
   "private": true,
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
-    "tslib": "^2.3.0"
+    "node-fetch": "^2.6.7",
+    "tslib": "^2.3.0",
+    "tiny-request-router": "^1.2.2"
   },
   "devDependencies": {
     "@nrwl/cli": "14.5.10",
@@ -33,6 +36,7 @@
     "prettier": "^2.6.2",
     "ts-jest": "27.1.4",
     "ts-node": "10.9.1",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "wrangler": "2.0.26"
   }
 }
